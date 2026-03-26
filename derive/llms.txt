@@ -1,0 +1,325 @@
+# Derive Documentation
+
+## Guides
+- [Overview](https://docs.derive.xyz/docs/dao-governance-overview.md)
+- [Governance](https://docs.derive.xyz/docs/governance.md)
+- [Service Providers](https://docs.derive.xyz/docs/service-providers.md): Independent groups that contribute to the DAO
+- [Token](https://docs.derive.xyz/docs/token.md)
+- [Treasury](https://docs.derive.xyz/docs/treasury.md)
+- [Hummingbot x Derive Exchange Connector Campaign](https://docs.derive.xyz/docs/derive-exchange-connector-campaign.md): This campaign is open-ended and designed to reward algo traders who help grow the liquidity and trading volume on Derive. The program includes incentives for both simple market-making setups and more advanced funding rate strategies.
+- [Hummingbot x Derive Exchange Connector Campaign](https://docs.derive.xyz/docs/hummingbot-x-derive-exchange-connector-campaign.md): This campaign is open-ended and designed to reward algo traders who help grow the liquidity and trading volume on Derive. The program includes incentives for both simple market-making setups and more advanced funding rate strategies.
+- [Institutional Trading Rewards Program](https://docs.derive.xyz/docs/institutional-trading-rewards-program-1.md): The program outlined below and all numbers provided are subject to change
+- [Retail Trading Rewards Program](https://docs.derive.xyz/docs/retail-trading-rewards-program.md): The program outlined below and all numbers provided are subject to change.
+- [Staking Rewards Program](https://docs.derive.xyz/docs/staking-rewards-program.md): The program outlined below and all numbers provided are subject to change.
+- [About Derive](https://docs.derive.xyz/docs/about-derive.md)
+- [Concepts](https://docs.derive.xyz/docs/concepts.md)
+- [Liquidations](https://docs.derive.xyz/docs/liquidations-1.md)
+- [Oracles](https://docs.derive.xyz/docs/oracles-1.md)
+- [PM2](https://docs.derive.xyz/docs/pm2.md)
+- [Portfolio Margin](https://docs.derive.xyz/docs/portfolio-margin-1.md)
+- [Settlements](https://docs.derive.xyz/docs/settlements.md)
+- [Standard Margin](https://docs.derive.xyz/docs/standard-margin-1.md)
+- [Supported Products](https://docs.derive.xyz/docs/supported-products-1.md)
+- [Derive Chain](https://docs.derive.xyz/docs/lyra-chain.md)
+- [Overview](https://docs.derive.xyz/docs/overview-2.md)
+- [Asset Parameters](https://docs.derive.xyz/docs/asset-parameters-1.md)
+- [Common Parameters](https://docs.derive.xyz/docs/common-parameters.md)
+- [Portfolio Manager [New] [SOL/HYPE added]](https://docs.derive.xyz/docs/copy-of-portfolio-manager-new.md)
+- [Standard Margin Parameters [SOL/HYPE Added]](https://docs.derive.xyz/docs/copy-of-standard-margin-parameters.md)
+- [Parameters](https://docs.derive.xyz/docs/parameters.md)
+- [Portfolio Manager [New]](https://docs.derive.xyz/docs/portfolio-manager-new.md)
+- [[Legacy] Portfolio Margin Parameters](https://docs.derive.xyz/docs/portfolio-margin-parameters-1.md)
+- [Standard Margin Parameters](https://docs.derive.xyz/docs/standard-manager-parameters.md)
+
+## API Reference
+- [(Subaccount Id) Balances](https://docs.derive.xyz/reference/subaccount_id-balances.md)
+- [(Subaccount Id) Best Quotes](https://docs.derive.xyz/reference/subaccount_id-best-quotes.md)
+- [(Subaccount Id) Orders](https://docs.derive.xyz/reference/subaccount_id-orders.md)
+- [(Subaccount Id) Quotes](https://docs.derive.xyz/reference/subaccount_id-quotes-1.md)
+- [(Subaccount Id) Quotes](https://docs.derive.xyz/reference/subaccount_id-quotes-2.md)
+- [(Subaccount Id) Quotes](https://docs.derive.xyz/reference/subaccount_id-quotes.md)
+- [(Subaccount Id) Trades (Tx Status)](https://docs.derive.xyz/reference/subaccount_id-trades-tx_status.md)
+- [(Subaccount Id) Trades](https://docs.derive.xyz/reference/subaccount_id-trades.md)
+- [(Wallet) Rfqs](https://docs.derive.xyz/reference/wallet-rfqs.md)
+- [Auctions Watch](https://docs.derive.xyz/reference/auctions-watch.md)
+- [Margin Watch](https://docs.derive.xyz/reference/margin-watch.md)
+- [Orderbook (Instrument Name) (Group) (Depth)](https://docs.derive.xyz/reference/orderbook-instrument_name-group-depth.md)
+- [Spot Feed (Currency)](https://docs.derive.xyz/reference/spot_feed-currency.md)
+- [Ticker Slim (Instrument Name) (Interval)](https://docs.derive.xyz/reference/ticker_slim-instrument_name-interval.md)
+- [Ticker (Instrument Name) (Interval)](https://docs.derive.xyz/reference/ticker-instrument_name-interval.md)
+- [Trades (Instrument Name)](https://docs.derive.xyz/reference/trades-instrument_name.md)
+- [Trades (Instrument Type) (Currency)](https://docs.derive.xyz/reference/trades-instrument_type-currency-1.md)
+- [Trades (Instrument Type) (Currency) (Tx Status)](https://docs.derive.xyz/reference/trades-instrument_type-currency-tx_status.md)
+- [Trades (Instrument Type) (Currency)](https://docs.derive.xyz/reference/trades-instrument_type-currency.md)
+- [Error Codes](https://docs.derive.xyz/reference/error-codes.md)
+- [Liquidation API](https://docs.derive.xyz/reference/liquidation-api.md)
+- [Orderbook Margin](https://docs.derive.xyz/reference/open-orders-margin.md)
+- [RFQ Quoting and Execution [Python / Rust]](https://docs.derive.xyz/reference/rfq-quoting-and-execution-javascript-copy.md)
+- [RFQ Quoting and Execution [JavaScript]](https://docs.derive.xyz/reference/rfq-quoting-and-execution.md)
+- [Submit Order [Python / Rust]](https://docs.derive.xyz/reference/submit-order-javascript-copy.md)
+- [Submit Order [JavaScript]](https://docs.derive.xyz/reference/submit-order.md)
+- [Transfer Collateral and Positions [Python]](https://docs.derive.xyz/reference/transfer-collateral.md)
+- [API Broker](https://docs.derive.xyz/reference/api-broker.md)
+- [Authentication](https://docs.derive.xyz/reference/authentication.md)
+- [Builder Fee](https://docs.derive.xyz/reference/builder-fee.md)
+- [Fees](https://docs.derive.xyz/reference/fees-1.md)
+- [Institutional Trading Rewards Program](https://docs.derive.xyz/reference/institutional-trading-rewards-program.md)
+- [JSON-RPC](https://docs.derive.xyz/reference/json-rpc.md)
+- [Matching Algorithms](https://docs.derive.xyz/reference/matching-algorithms.md)
+- [Naming](https://docs.derive.xyz/reference/naming.md)
+- [Create or Deposit to Subaccount](https://docs.derive.xyz/reference/create-or-deposit-to-subaccount.md)
+- [Deposit to Derive Chain](https://docs.derive.xyz/reference/deposit-to-lyra-chain.md)
+- [Onboard Manually](https://docs.derive.xyz/reference/onboard-manually.md)
+- [Manage Session Keys](https://docs.derive.xyz/reference/on-chain-manage-session-keys.md)
+- [Withdraw](https://docs.derive.xyz/reference/on-chain-withdraw.md)
+- [Manage Session Keys](https://docs.derive.xyz/reference/create-session-keys.md)
+- [Getting Started](https://docs.derive.xyz/reference/onboard-via-interface.md)
+- [Multiple Subaccounts](https://docs.derive.xyz/reference/multiple-subaccounts.md)
+- [Transfer](https://docs.derive.xyz/reference/transfer.md)
+- [Create Subaccount and Deposit](https://docs.derive.xyz/reference/ux-create-or-deposit-to-subaccount.md)
+- [Withdraw](https://docs.derive.xyz/reference/ux-withdraw.md)
+- [Introduction](https://docs.derive.xyz/reference/overview.md)
+- [Protocol Constants](https://docs.derive.xyz/reference/protocol-constants.md)
+- [Rate Limits](https://docs.derive.xyz/reference/rate-limits.md)
+- [Session Keys](https://docs.derive.xyz/reference/session-keys.md)
+- [Cancel All Trigger Orders](https://docs.derive.xyz/reference/post_private-cancel-all-trigger-orders.md): Cancel all trigger orders for this subaccount.<br /><br />Also used by cancel_all in WS. Required minimum session key permission level is `admin`
+- [Cancel All](https://docs.derive.xyz/reference/post_private-cancel-all.md): Cancel all orders for this instrument. Required minimum session key permission level is `admin`
+- [Cancel Batch Quotes](https://docs.derive.xyz/reference/post_private-cancel-batch-quotes.md): Cancels quotes given optional filters. If no filters are provided, all quotes by the subaccount are cancelled.<br />All filters are combined using `AND` logic, so mutually exclusive filters will result in no quotes being cancelled. Required minimum session key permission level is `admin`
+- [Cancel Batch Rfqs](https://docs.derive.xyz/reference/post_private-cancel-batch-rfqs.md): Cancels RFQs given optional filters.<br />If no filters are provided, all RFQs for the subaccount are cancelled.<br />All filters are combined using `AND` logic, so mutually exclusive filters will result in no RFQs being cancelled. Required minimum session key permission level is `account`
+- [Cancel By Instrument](https://docs.derive.xyz/reference/post_private-cancel-by-instrument.md): Cancel all orders for this instrument. Required minimum session key permission level is `admin`
+- [Cancel By Label](https://docs.derive.xyz/reference/post_private-cancel-by-label.md): Cancel all open orders for a given subaccount and a given label.  If instrument_name is provided, only orders for that instrument will be cancelled. Required minimum session key permission level is `admin`
+- [Cancel By Nonce](https://docs.derive.xyz/reference/post_private-cancel-by-nonce.md): Cancel a single order by nonce. Uses up that nonce if the order does not exist, so any future orders with that nonce will fail Required minimum session key permission level is `admin`
+- [Cancel Quote](https://docs.derive.xyz/reference/post_private-cancel-quote.md): Cancels an open quote. Required minimum session key permission level is `admin`
+- [Cancel Rfq](https://docs.derive.xyz/reference/post_private-cancel-rfq.md): Cancels a single RFQ by id. Required minimum session key permission level is `account`
+- [Cancel Trigger Order](https://docs.derive.xyz/reference/post_private-cancel-trigger-order.md): Cancels a trigger order. Required minimum session key permission level is `admin`
+- [Cancel](https://docs.derive.xyz/reference/post_private-cancel.md): Cancel a single order.<br /><br />Other `private/cancel_*` routes are available through both REST and WebSocket. Required minimum session key permission level is `admin`
+- [Change Subaccount Label](https://docs.derive.xyz/reference/post_private-change-subaccount-label.md): Change a user defined label for given subaccount Required minimum session key permission level is `account`
+- [Create Subaccount](https://docs.derive.xyz/reference/post_private-create-subaccount.md): Create a new subaccount under a given wallet, and deposit an asset into that subaccount.<br /><br />See `public/create_subaccount_debug` for debugging invalid signature issues or go to guides in Documentation. Required minimum session key permission level is `admin`
+- [Deposit](https://docs.derive.xyz/reference/post_private-deposit.md): Deposit an asset to a subaccount.<br /><br />See `public/deposit_debug' for debugging invalid signature issues or go to guides in Documentation. Required minimum session key permission level is `admin`
+- [Edit Session Key](https://docs.derive.xyz/reference/post_private-edit-session-key.md): Edits session key parameters such as label and IP whitelist.<br />For non-admin keys you can also toggle whether to disable a particular key.<br />Disabling non-admin keys must be done through /deregister_session_key Required minimum session key permission level is `account`
+- [Execute Quote](https://docs.derive.xyz/reference/post_private-execute-quote.md): Executes a quote. Required minimum session key permission level is `admin`
+- [Expired And Cancelled History](https://docs.derive.xyz/reference/post_private-expired-and-cancelled-history.md): Generate a list of URLs to retrieve archived orders Required minimum session key permission level is `read_only`
+- [Get Account](https://docs.derive.xyz/reference/post_private-get-account.md): Account details getter Required minimum session key permission level is `read_only`
+- [Get All Portfolios](https://docs.derive.xyz/reference/post_private-get-all-portfolios.md): Get all portfolios of a wallet Required minimum session key permission level is `read_only`
+- [Get Collaterals](https://docs.derive.xyz/reference/post_private-get-collaterals.md): Get collaterals of a subaccount Required minimum session key permission level is `read_only`
+- [Get Deposit History](https://docs.derive.xyz/reference/post_private-get-deposit-history.md): Get subaccount deposit history. Required minimum session key permission level is `read_only`
+- [Get Erc20 Transfer History](https://docs.derive.xyz/reference/post_private-get-erc20-transfer-history.md): Get subaccount erc20 transfer history.<br /><br />Position transfers (e.g. options or perps) are treated as trades. Use `private/get_trade_history` for position transfer history. Required minimum session key permission level is `read_only`
+- [Get Funding History](https://docs.derive.xyz/reference/post_private-get-funding-history.md): Get subaccount funding history.<br /><br />DB: read replica Required minimum session key permission level is `read_only`
+- [Get Interest History](https://docs.derive.xyz/reference/post_private-get-interest-history.md): Get subaccount interest payment history. Required minimum session key permission level is `read_only`
+- [Get Liquidation History](https://docs.derive.xyz/reference/post_private-get-liquidation-history.md): Required minimum session key permission level is `read_only`
+- [Get Liquidator History](https://docs.derive.xyz/reference/post_private-get-liquidator-history.md): Returns a paginated history of auctions that the subaccount has participated in as a liquidator. Required minimum session key permission level is `read_only`
+- [Get Margin](https://docs.derive.xyz/reference/post_private-get-margin.md): Calculates margin for a given subaccount and (optionally) a simulated state change. Does not take into account<br />open orders margin requirements. Required minimum session key permission level is `read_only`
+- [Get Mmp Config](https://docs.derive.xyz/reference/post_private-get-mmp-config.md): Get the current mmp config for a subaccount (optionally filtered by currency) Required minimum session key permission level is `read_only`
+- [Get Notifications](https://docs.derive.xyz/reference/post_private-get-notifications.md): Get the notifications related to a subaccount. Required minimum session key permission level is `read_only`
+- [Get Open Orders](https://docs.derive.xyz/reference/post_private-get-open-orders.md): Get all open orders of a subacccount Required minimum session key permission level is `read_only`
+- [Get Option Settlement History](https://docs.derive.xyz/reference/post_private-get-option-settlement-history.md): Get expired option settlement history for a subaccount Required minimum session key permission level is `read_only`
+- [Get Order History](https://docs.derive.xyz/reference/post_private-get-order-history.md): Get order history for a subaccount Required minimum session key permission level is `read_only`
+- [Get Order](https://docs.derive.xyz/reference/post_private-get-order.md): Get state of an order by order id.  If the order is an MMP order, it will not show up if cancelled/expired. Required minimum session key permission level is `read_only`
+- [Get Orders](https://docs.derive.xyz/reference/post_private-get-orders.md): Get orders for a subaccount, with optional filtering. Required minimum session key permission level is `read_only`
+- [Get Positions](https://docs.derive.xyz/reference/post_private-get-positions.md): Get active positions of a subaccount Required minimum session key permission level is `read_only`
+- [Get Quotes](https://docs.derive.xyz/reference/post_private-get-quotes.md): Retrieves a list of quotes matching filter criteria.<br />Market makers can use this to get their open quotes, quote history, etc. Required minimum session key permission level is `read_only`
+- [Get Rfqs](https://docs.derive.xyz/reference/post_private-get-rfqs.md): Retrieves a list of RFQs matching filter criteria. Takers can use this to get their open RFQs, RFQ history, etc. Required minimum session key permission level is `read_only`
+- [Get Subaccount Value History](https://docs.derive.xyz/reference/post_private-get-subaccount-value-history.md): Get the value history of a subaccount Required minimum session key permission level is `read_only`
+- [Get Subaccount](https://docs.derive.xyz/reference/post_private-get-subaccount.md): Get open orders, active positions, and collaterals of a subaccount Required minimum session key permission level is `read_only`
+- [Get Subaccounts](https://docs.derive.xyz/reference/post_private-get-subaccounts.md): Get all subaccounts of an account / wallet Required minimum session key permission level is `read_only`
+- [Get Trade History](https://docs.derive.xyz/reference/post_private-get-trade-history.md): Get trade history for a subaccount, with filter parameters. Required minimum session key permission level is `read_only`
+- [Get Withdrawal History](https://docs.derive.xyz/reference/post_private-get-withdrawal-history.md): Get subaccount withdrawal history. Required minimum session key permission level is `read_only`
+- [Liquidate](https://docs.derive.xyz/reference/post_private-liquidate.md): Liquidates a given subaccount using funds from another subaccount. This endpoint has a few limitations:<br />1. If succesful, the RPC will freeze the caller's subaccount until the bid is settled or is reverted on chain.<br />2. The caller's subaccount must not have any open orders.<br />3. The caller's subaccount must have enough withdrawable cash to cover the bid and the buffer margin requirements. Required minimum session key permission level is `admin`
+- [Order Debug](https://docs.derive.xyz/reference/post_private-order-debug.md): Debug a new order Required minimum session key permission level is `read_only`
+- [Order](https://docs.derive.xyz/reference/post_private-order.md): Create a new order. Required minimum session key permission level is `admin`
+- [Poll Quotes](https://docs.derive.xyz/reference/post_private-poll-quotes.md): Retrieves a list of quotes matching filter criteria.<br />Takers can use this to poll open quotes that they can fill against their open RFQs. Required minimum session key permission level is `read_only`
+- [Poll Rfqs](https://docs.derive.xyz/reference/post_private-poll-rfqs.md): Retrieves a list of RFQs matching filter criteria. Market makers can use this to poll RFQs directed to them. Required minimum session key permission level is `read_only`
+- [Register Scoped Session Key](https://docs.derive.xyz/reference/post_private-register-scoped-session-key.md): Registers a new session key bounded to a scope without a transaction attached.<br />If you want to register an admin key, you must provide a signed raw transaction. Required minimum session key permission level is `account`
+- [Replace Quote](https://docs.derive.xyz/reference/post_private-replace-quote.md): Cancel an existing quote with nonce or quote_id and create new quote with different quote_id in a single RPC call.<br /><br />If the cancel fails, the new quote will not be created.<br />If the cancel succeeds but the new quote fails, the old quote will still be cancelled. Required minimum session key permission level is `admin`
+- [Replace](https://docs.derive.xyz/reference/post_private-replace.md): Cancel an existing order with nonce or order_id and create new order with different order_id in a single RPC call.<br /><br />If the cancel fails, the new order will not be created.<br />If the cancel succeeds but the new order fails, the old order will still be cancelled. Required minimum session key permission level is `admin`
+- [Reset Mmp](https://docs.derive.xyz/reference/post_private-reset-mmp.md): Resets (unfreezes) the mmp state for a subaccount (optionally filtered by currency) Required minimum session key permission level is `account`
+- [Rfq Get Best Quote](https://docs.derive.xyz/reference/post_private-rfq-get-best-quote.md): Performs a "dry run" on an RFQ, returning the estimated fee and whether the trade is expected to pass.<br /><br />Should any exception be raised in the process of evaluating the trade, a standard RPC error will be returned<br />with the error details. Required minimum session key permission level is `read_only`
+- [Send Quote](https://docs.derive.xyz/reference/post_private-send-quote.md): Sends a quote in response to an RFQ request.<br />The legs supplied in the parameters must exactly match those in the RFQ. Required minimum session key permission level is `admin`
+- [Send Rfq](https://docs.derive.xyz/reference/post_private-send-rfq.md): Requests two-sided quotes from participating market makers. Required minimum session key permission level is `account`
+- [Session Keys](https://docs.derive.xyz/reference/post_private-session-keys.md): Required minimum session key permission level is `read_only`
+- [Set Cancel On Disconnect](https://docs.derive.xyz/reference/post_private-set-cancel-on-disconnect.md): Enables cancel on disconnect for the account Required minimum session key permission level is `account`
+- [Set Mmp Config](https://docs.derive.xyz/reference/post_private-set-mmp-config.md): Set the mmp config for the subaccount and currency Required minimum session key permission level is `account`
+- [Transfer Erc20](https://docs.derive.xyz/reference/post_private-transfer-erc20.md): Transfer ERC20 assets from one subaccount to another (e.g. USDC or ETH).<br /><br />For transfering positions (e.g. options or perps), use `private/transfer_position` instead. Required minimum session key permission level is `admin`
+- [Transfer Position](https://docs.derive.xyz/reference/post_private-transfer-position.md): Transfers a positions from one subaccount to another, owned by the same wallet.<br /><br />The transfer is executed as a pair of orders crossing each other.<br />The maker order is created first, followed by a taker order crossing it.<br />The order amounts, limit prices and instrument name must be the same for both orders.<br />Fee is not charged and a zero `max_fee` must be signed.<br />The maker order is forcibly considered to be `reduce_only`, meaning it can only reduce the position size.<br /><br />History: For position transfer history, use the `private/get_trade_history` RPC (not `private/get_erc20_transfer_history`). Required minimum session key permission level is `admin`
+- [Transfer Positions](https://docs.derive.xyz/reference/post_private-transfer-positions.md): Transfers multiple positions from one subaccount to another, owned by the same wallet.<br /><br />The transfer is executed as a an RFQ. A mock RFQ is first created from the taker parameters, followed by a maker quote and a taker execute.<br />The leg amounts, prices and instrument name must be the same in both param payloads.<br />Fee is not charged and a zero `max_fee` must be signed.<br />Every leg in the transfer must be a position reduction for either maker or taker (or both).<br /><br />History: for position transfer history, use the `private/get_trade_history` RPC (not `private/get_erc20_transfer_history`). Required minimum session key permission level is `admin`
+- [Update Notifications](https://docs.derive.xyz/reference/post_private-update-notifications.md): RPC to mark specified notifications as seen for a given subaccount. Required minimum session key permission level is `account`
+- [Withdraw](https://docs.derive.xyz/reference/post_private-withdraw.md): Withdraw an asset to wallet.<br /><br />See `public/withdraw_debug` for debugging invalid signature issues or go to guides in Documentation. Required minimum session key permission level is `admin`
+- [Build Register Session Key Tx](https://docs.derive.xyz/reference/post_public-build-register-session-key-tx.md): Build a signable transaction params dictionary.
+- [Create Subaccount Debug](https://docs.derive.xyz/reference/post_public-create-subaccount-debug.md): Used for debugging only, do not use in production. Will return the incremental encoded and hashed data.<br /><br />See guides in Documentation for more.
+- [Deposit Debug](https://docs.derive.xyz/reference/post_public-deposit-debug.md): Used for debugging only, do not use in production. Will return the incremental encoded and hashed data.<br /><br />See guides in Documentation for more.
+- [Deregister Session Key](https://docs.derive.xyz/reference/post_public-deregister-session-key.md): Used for de-registering admin scoped keys. For other scopes, use `/edit_session_key`.
+- [Execute Quote Debug](https://docs.derive.xyz/reference/post_public-execute-quote-debug.md): Sends a quote in response to an RFQ request.<br />The legs supplied in the parameters must exactly match those in the RFQ.
+- [Get All Currencies](https://docs.derive.xyz/reference/post_public-get-all-currencies.md): Get all active currencies with their spot price, spot price 24hrs ago.<br /><br />For real-time updates, recommend using channels -> ticker or orderbook.
+- [Get All Instruments](https://docs.derive.xyz/reference/post_public-get-all-instruments.md): Get a paginated history of all instruments
+- [Get Currency](https://docs.derive.xyz/reference/post_public-get-currency.md): Get currency related risk params, spot price 24hrs ago and lending details for a specific currency.
+- [Get Funding Rate History](https://docs.derive.xyz/reference/post_public-get-funding-rate-history.md): Get funding rate history. Start timestamp is restricted to at most 30 days ago.<br />End timestamp greater than current time will be truncated to current time.<br />Zero start timestamp is allowed and will default to 30 days from the end timestamp.<br /><br />DB: read replica
+- [Get Instrument](https://docs.derive.xyz/reference/post_public-get-instrument.md): Get single instrument by asset name
+- [Get Instruments](https://docs.derive.xyz/reference/post_public-get-instruments.md): Get all active instruments for a given `currency` and `type`.
+- [Get Interest Rate History](https://docs.derive.xyz/reference/post_public-get-interest-rate-history.md): Get latest USDC interest rate history
+- [Get Latest Signed Feeds](https://docs.derive.xyz/reference/post_public-get-latest-signed-feeds.md): Get latest signed data feeds
+- [Get Liquidation History](https://docs.derive.xyz/reference/post_public-get-liquidation-history.md): Returns a paginated liquidation history for all subaccounts. Note that the pagination is based on the number of<br />raw events that include bids, auction start, and auction end events. This means that the count returned in the<br />pagination info will be larger than the total number of auction events. This also means the number of returned<br />auctions per page will be smaller than the supplied `page_size`.
+- [Get Live Incidents](https://docs.derive.xyz/reference/post_public-get-live-incidents.md)
+- [Get Maker Program Scores](https://docs.derive.xyz/reference/post_public-get-maker-program-scores.md): Get scores breakdown by maker program.
+- [Get Maker Programs](https://docs.derive.xyz/reference/post_public-get-maker-programs.md): Get all maker programs, including past / historical ones.
+- [Get Margin](https://docs.derive.xyz/reference/post_public-get-margin.md): Calculates margin for a given portfolio and (optionally) a simulated state change.<br />Does not take into account open orders margin requirements.public/withdraw_debug
+- [Get Option Settlement History](https://docs.derive.xyz/reference/post_public-get-option-settlement-history.md): Get expired option settlement history for a subaccount
+- [Get Option Settlement Prices](https://docs.derive.xyz/reference/post_public-get-option-settlement-prices.md): Get settlement prices by expiry for each currency
+- [Get Referral Performance](https://docs.derive.xyz/reference/post_public-get-referral-performance.md): Get the broker program referral performance. Epochs are 28 days long.
+- [Get Spot Feed History Candles](https://docs.derive.xyz/reference/post_public-get-spot-feed-history-candles.md): Get spot feed history candles by currency<br /><br />DB: read replica
+- [Get Spot Feed History](https://docs.derive.xyz/reference/post_public-get-spot-feed-history.md): Get spot feed history by currency<br /><br />DB: read replica
+- [Get Ticker](https://docs.derive.xyz/reference/post_public-get-ticker.md): Get ticker information (best bid / ask, instrument contraints, fees info, etc.) for a single instrument<br /><br />DEPRECATION NOTICE: This RPC is deprecated in favor of `get_tickers` on Dec 1, 2025.
+- [Get Tickers](https://docs.derive.xyz/reference/post_public-get-tickers.md): Get tickers information (best bid / ask, stats, etc.) for a multiple instruments.<br /><br />For options: currency is required and expiry_date is required.<br />For perps: currency is optional, expiry_date will throw an error.<br />For erc20s: currency is optional, expiry_date will throw an error.<br /><br />For most up to date stream of tickers, use the `ticker.<instrument_name>.<interval>` channels.
+- [Get Time](https://docs.derive.xyz/reference/post_public-get-time.md)
+- [Get Trade History](https://docs.derive.xyz/reference/post_public-get-trade-history.md): Get trade history for a subaccount, with filter parameters.
+- [Get Transaction](https://docs.derive.xyz/reference/post_public-get-transaction.md): Used for getting a transaction by its transaction id
+- [Get Vault Balances](https://docs.derive.xyz/reference/post_public-get-vault-balances.md): Get all vault assets held by user. Can query by smart contract address or smart contract owner.<br /><br />Includes VaultERC20Pool balances
+- [Get Vault Share](https://docs.derive.xyz/reference/post_public-get-vault-share.md): Gets the value of a vault's token against the base currency, underlying currency, and USD for a timestamp range.<br /><br />The name of the vault from the Vault proxy contract is used to fetch the vault's value.
+- [Get Vault Statistics](https://docs.derive.xyz/reference/post_public-get-vault-statistics.md): Gets all the latest vault shareRate, totalSupply and TVL values for all vaults.<br /><br />For data on shares across chains, use public/get_vault_assets.
+- [Login](https://docs.derive.xyz/reference/post_public-login.md): Authenticate a websocket connection. Unavailable via HTTP.
+- [Margin Watch](https://docs.derive.xyz/reference/post_public-margin-watch.md): Calculates MtM and maintenance margin for a given subaccount.
+- [Register Session Key](https://docs.derive.xyz/reference/post_public-register-session-key.md): Register or update expiry of an existing session key.<br />Currently, this only supports creating admin level session keys.<br />Keys with fewer permissions are registered via `/register_scoped_session_key`<br /><br />Expiries updated on admin session keys may not happen immediately due to waiting for the onchain transaction to settle.
+- [Send Quote Debug](https://docs.derive.xyz/reference/post_public-send-quote-debug.md): Sends a quote in response to an RFQ request.<br />The legs supplied in the parameters must exactly match those in the RFQ.
+- [Statistics](https://docs.derive.xyz/reference/post_public-statistics.md): Get statistics for a specific instrument or instrument type
+- [Withdraw Debug](https://docs.derive.xyz/reference/post_public-withdraw-debug.md): Used for debugging only, do not use in production. Will return the incremental encoded and hashed data.<br /><br />See guides in Documentation for more.
+- [Cancel Batch Quotes](https://docs.derive.xyz/reference/private-cancel_batch_quotes.md)
+- [Cancel Batch Rfqs](https://docs.derive.xyz/reference/private-cancel_batch_rfqs.md)
+- [Cancel By Instrument](https://docs.derive.xyz/reference/private-cancel_by_instrument.md)
+- [Cancel By Label](https://docs.derive.xyz/reference/private-cancel_by_label.md)
+- [Cancel By Nonce](https://docs.derive.xyz/reference/private-cancel_by_nonce.md)
+- [Cancel Quote](https://docs.derive.xyz/reference/private-cancel_quote.md)
+- [Cancel Rfq](https://docs.derive.xyz/reference/private-cancel_rfq.md)
+- [Cancel Trigger Order](https://docs.derive.xyz/reference/private-cancel_trigger_order.md)
+- [Cancel All Trigger Orders](https://docs.derive.xyz/reference/private-cancel-all_trigger_orders.md)
+- [Cancel All](https://docs.derive.xyz/reference/private-cancel-all.md)
+- [Cancel](https://docs.derive.xyz/reference/private-cancel.md)
+- [Change Session Key Label](https://docs.derive.xyz/reference/private-change_session_key_label.md)
+- [Change Subaccount Label](https://docs.derive.xyz/reference/private-change_subaccount_label.md)
+- [Create Contact Info](https://docs.derive.xyz/reference/private-create_contact_info.md)
+- [Create Subaccount](https://docs.derive.xyz/reference/private-create_subaccount.md)
+- [Delete Contact Info](https://docs.derive.xyz/reference/private-delete_contact_info.md)
+- [Deposit](https://docs.derive.xyz/reference/private-deposit.md)
+- [Edit Session Key](https://docs.derive.xyz/reference/private-edit_session_key.md)
+- [Execute Quote](https://docs.derive.xyz/reference/private-execute_quote.md)
+- [Expired And Cancelled History](https://docs.derive.xyz/reference/private-expired_and_cancelled_history.md)
+- [Get Account](https://docs.derive.xyz/reference/private-get_account.md)
+- [Get All Portfolios](https://docs.derive.xyz/reference/private-get_all_portfolios.md)
+- [Get Collaterals](https://docs.derive.xyz/reference/private-get_collaterals.md)
+- [Get Contact Info](https://docs.derive.xyz/reference/private-get_contact_info.md)
+- [Get Deposit History](https://docs.derive.xyz/reference/private-get_deposit_history.md)
+- [Get Erc20 Transfer History](https://docs.derive.xyz/reference/private-get_erc20_transfer_history.md)
+- [Get Funding History](https://docs.derive.xyz/reference/private-get_funding_history.md)
+- [Get Interest History](https://docs.derive.xyz/reference/private-get_interest_history.md)
+- [Get Liquidation History](https://docs.derive.xyz/reference/private-get_liquidation_history.md)
+- [Get Liquidator History](https://docs.derive.xyz/reference/private-get_liquidator_history.md)
+- [Get Margin](https://docs.derive.xyz/reference/private-get_margin.md)
+- [Get Mmp Config](https://docs.derive.xyz/reference/private-get_mmp_config.md)
+- [Get Notifications](https://docs.derive.xyz/reference/private-get_notifications.md)
+- [Get Open Orders](https://docs.derive.xyz/reference/private-get_open_orders.md)
+- [Get Option Settlement History](https://docs.derive.xyz/reference/private-get_option_settlement_history.md)
+- [Get Order History](https://docs.derive.xyz/reference/private-get_order_history.md)
+- [Get Order](https://docs.derive.xyz/reference/private-get_order.md)
+- [Get Orders](https://docs.derive.xyz/reference/private-get_orders.md)
+- [Get Positions](https://docs.derive.xyz/reference/private-get_positions.md)
+- [Get Quotes](https://docs.derive.xyz/reference/private-get_quotes.md)
+- [Get Rfqs](https://docs.derive.xyz/reference/private-get_rfqs.md)
+- [Get Subaccount Value History](https://docs.derive.xyz/reference/private-get_subaccount_value_history.md)
+- [Get Subaccount](https://docs.derive.xyz/reference/private-get_subaccount.md)
+- [Get Subaccounts](https://docs.derive.xyz/reference/private-get_subaccounts.md)
+- [Get Trade History](https://docs.derive.xyz/reference/private-get_trade_history.md)
+- [Get Trigger Orders](https://docs.derive.xyz/reference/private-get_trigger_orders.md)
+- [Get Withdrawal History](https://docs.derive.xyz/reference/private-get_withdrawal_history.md)
+- [Liquidate](https://docs.derive.xyz/reference/private-liquidate.md)
+- [Order Debug](https://docs.derive.xyz/reference/private-order_debug.md)
+- [Order Quote](https://docs.derive.xyz/reference/private-order_quote.md)
+- [Order](https://docs.derive.xyz/reference/private-order.md)
+- [Poll Quotes](https://docs.derive.xyz/reference/private-poll_quotes.md)
+- [Poll Rfqs](https://docs.derive.xyz/reference/private-poll_rfqs.md)
+- [Register Scoped Session Key](https://docs.derive.xyz/reference/private-register_scoped_session_key.md)
+- [Replace Quote](https://docs.derive.xyz/reference/private-replace_quote.md)
+- [Replace](https://docs.derive.xyz/reference/private-replace.md)
+- [Reset Mmp](https://docs.derive.xyz/reference/private-reset_mmp.md)
+- [Rfq Get Best Quote](https://docs.derive.xyz/reference/private-rfq_get_best_quote.md)
+- [Send Quote](https://docs.derive.xyz/reference/private-send_quote.md)
+- [Send Rfq](https://docs.derive.xyz/reference/private-send_rfq.md)
+- [Session Keys](https://docs.derive.xyz/reference/private-session_keys.md)
+- [Set Cancel On Disconnect](https://docs.derive.xyz/reference/private-set_cancel_on_disconnect.md)
+- [Set Mmp Config](https://docs.derive.xyz/reference/private-set_mmp_config.md)
+- [Transfer Erc20](https://docs.derive.xyz/reference/private-transfer_erc20.md)
+- [Transfer Position Debug](https://docs.derive.xyz/reference/private-transfer_position_debug.md)
+- [Transfer Position](https://docs.derive.xyz/reference/private-transfer_position.md)
+- [Transfer Positions](https://docs.derive.xyz/reference/private-transfer_positions.md)
+- [Trigger Order](https://docs.derive.xyz/reference/private-trigger_order.md)
+- [Update Contact Info](https://docs.derive.xyz/reference/private-update_contact_info.md)
+- [Update Notifications](https://docs.derive.xyz/reference/private-update_notifications.md)
+- [Withdraw](https://docs.derive.xyz/reference/private-withdraw.md)
+- [All Statistics](https://docs.derive.xyz/reference/public-all_statistics.md)
+- [All User Statistics](https://docs.derive.xyz/reference/public-all_user_statistics.md)
+- [Build Register Session Key Tx](https://docs.derive.xyz/reference/public-build_register_session_key_tx.md)
+- [Change Compliance Status](https://docs.derive.xyz/reference/public-change_compliance_status.md)
+- [Check Subaccount Drift](https://docs.derive.xyz/reference/public-check_subaccount_drift.md)
+- [Compare Ffi Margin](https://docs.derive.xyz/reference/public-compare_ffi_margin.md)
+- [Create Account With Secret](https://docs.derive.xyz/reference/public-create_account_with_secret-1.md)
+- [Create Account With Secret](https://docs.derive.xyz/reference/public-create_account_with_secret.md)
+- [Create Subaccount Debug](https://docs.derive.xyz/reference/public-create_subaccount_debug.md)
+- [Deposit Debug](https://docs.derive.xyz/reference/public-deposit_debug.md)
+- [Deregister Session Key](https://docs.derive.xyz/reference/public-deregister_session_key.md)
+- [Execute Quote Debug](https://docs.derive.xyz/reference/public-execute_quote_debug.md)
+- [Get All Currencies](https://docs.derive.xyz/reference/public-get_all_currencies.md)
+- [Get All Instruments](https://docs.derive.xyz/reference/public-get_all_instruments.md)
+- [Get All Points](https://docs.derive.xyz/reference/public-get_all_points.md)
+- [Get All Referral Codes](https://docs.derive.xyz/reference/public-get_all_referral_codes.md)
+- [Get Asset](https://docs.derive.xyz/reference/public-get_asset.md)
+- [Get Assets](https://docs.derive.xyz/reference/public-get_assets.md)
+- [Get Bridge Balances](https://docs.derive.xyz/reference/public-get_bridge_balances.md)
+- [Get Currency](https://docs.derive.xyz/reference/public-get_currency.md)
+- [Get Descendant Tree](https://docs.derive.xyz/reference/public-get_descendant_tree.md)
+- [Get Detailed Maker Snapshot History](https://docs.derive.xyz/reference/public-get_detailed_maker_snapshot_history.md)
+- [Get Funding Rate History](https://docs.derive.xyz/reference/public-get_funding_rate_history.md)
+- [Get Instrument](https://docs.derive.xyz/reference/public-get_instrument.md)
+- [Get Instruments](https://docs.derive.xyz/reference/public-get_instruments.md)
+- [Get Interest Rate History](https://docs.derive.xyz/reference/public-get_interest_rate_history.md)
+- [Get Invite Code](https://docs.derive.xyz/reference/public-get_invite_code.md)
+- [Get Latest Signed Feeds](https://docs.derive.xyz/reference/public-get_latest_signed_feeds.md)
+- [Get Liquidation History](https://docs.derive.xyz/reference/public-get_liquidation_history.md)
+- [Get Live Incidents](https://docs.derive.xyz/reference/public-get_live_incidents.md)
+- [Get Maker Program Scores](https://docs.derive.xyz/reference/public-get_maker_program_scores.md)
+- [Get Maker Programs](https://docs.derive.xyz/reference/public-get_maker_programs.md)
+- [Get Margin](https://docs.derive.xyz/reference/public-get_margin.md)
+- [Get Matching Engine Monitor](https://docs.derive.xyz/reference/public-get_matching_engine_monitor.md)
+- [Get Option Settlement History](https://docs.derive.xyz/reference/public-get_option_settlement_history.md)
+- [Get Option Settlement Prices](https://docs.derive.xyz/reference/public-get_option_settlement_prices.md)
+- [Get Perp Impact Twap](https://docs.derive.xyz/reference/public-get_perp_impact_twap.md)
+- [Get Points Leaderboard](https://docs.derive.xyz/reference/public-get_points_leaderboard.md)
+- [Get Points](https://docs.derive.xyz/reference/public-get_points.md)
+- [Get Referral Code](https://docs.derive.xyz/reference/public-get_referral_code.md)
+- [Get Referral Performance](https://docs.derive.xyz/reference/public-get_referral_performance.md)
+- [Get Spot Feed History Candles](https://docs.derive.xyz/reference/public-get_spot_feed_history_candles.md)
+- [Get Spot Feed History](https://docs.derive.xyz/reference/public-get_spot_feed_history.md)
+- [Get Stdrv Snapshots](https://docs.derive.xyz/reference/public-get_stdrv_snapshots.md)
+- [Get Ticker](https://docs.derive.xyz/reference/public-get_ticker.md)
+- [Get Tickers](https://docs.derive.xyz/reference/public-get_tickers.md)
+- [Get Time](https://docs.derive.xyz/reference/public-get_time.md)
+- [Get Trade History](https://docs.derive.xyz/reference/public-get_trade_history.md)
+- [Get Transaction](https://docs.derive.xyz/reference/public-get_transaction.md)
+- [Get Tree Roots](https://docs.derive.xyz/reference/public-get_tree_roots.md)
+- [Get Vault Assets](https://docs.derive.xyz/reference/public-get_vault_assets.md)
+- [Get Vault Balances](https://docs.derive.xyz/reference/public-get_vault_balances.md)
+- [Get Vault Pools](https://docs.derive.xyz/reference/public-get_vault_pools.md)
+- [Get Vault Rates](https://docs.derive.xyz/reference/public-get_vault_rates.md)
+- [Get Vault Share](https://docs.derive.xyz/reference/public-get_vault_share.md)
+- [Get Vault Statistics](https://docs.derive.xyz/reference/public-get_vault_statistics.md)
+- [Get Wallets From Session Key](https://docs.derive.xyz/reference/public-get_wallets_from_session_key.md)
+- [Login](https://docs.derive.xyz/reference/public-login.md)
+- [Margin Watch](https://docs.derive.xyz/reference/public-margin_watch.md)
+- [Ob View](https://docs.derive.xyz/reference/public-ob_internal_view.md)
+- [Order Quote](https://docs.derive.xyz/reference/public-order_quote.md)
+- [Register Session Key Via Secret](https://docs.derive.xyz/reference/public-register_session_key_via_secret.md)
+- [Register Session Key](https://docs.derive.xyz/reference/public-register_session_key.md)
+- [Send Quote Debug](https://docs.derive.xyz/reference/public-send_quote_debug.md)
+- [Set Feed Data](https://docs.derive.xyz/reference/public-set_feed_data.md)
+- [Statistics](https://docs.derive.xyz/reference/public-statistics.md)
+- [User Statistics](https://docs.derive.xyz/reference/public-user_statistics.md)
+- [Validate Invite Code](https://docs.derive.xyz/reference/public-validate_invite_code.md)
+- [Withdraw Debug](https://docs.derive.xyz/reference/public-withdraw_debug.md)
+- [Subscribe](https://docs.derive.xyz/reference/subscribe.md)
+- [Unsubscribe](https://docs.derive.xyz/reference/unsubscribe.md)
